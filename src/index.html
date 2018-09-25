@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  <head>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <style>
+      #board {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="board" width="800" height="450"></canvas>
+  </body>
+</html>
